@@ -1,0 +1,80 @@
+#####################################################################
+######### Assignment: Creating ADTs and Using an XML Parser #########
+#####################################################################
+
+# Overview:
+-----------
+The Java Data Structures Implementation project encapsulates a suite of classes that embody fundamental data structures. It encompasses dynamic arrays, stacks, queues, and doubly linked lists. Designed with algorithmic efficiency and object-oriented principles at its core.
+
+# Table of Contents:
+---------------------
+1. Application Specifications
+2. How to Use
+3. Running JUnit Tests
+4. Project Structure
+5. Documentation
+6. Contributors
+
+# Application Specifications:
+------------------------------
+Key components of the project:
+
+    1. `MyArrayList`: An adaptable array with dynamic resizing capabilities.
+    2. `MyDLL`: A doubly linked list enabling operations at both ends for efficiency.
+    3. `MyStack`: A classic LIFO (Last-In-First-Out) structure implemented via a linked list.
+    4. `MyQueue`: A conventional FIFO (First-In-First-Out) structure also realized through a linked list.
+    5. `Iterator` implementations: Allow for sequential traversal across the structures.
+
+Generics are employed within these structures to ensure their applicability across diverse data types.
+
+# How to Use:
+-------------
+Implement these structures into your codebase:
+
+    1. Clone the repository and import it into a JavaSE-1.8 compatible Integrated Development Environment (IDE), such as Eclipse or IntelliJ IDEA.
+    2. Import into Eclipse workspace.
+    3. Run.
+
+# Running JUnit Tests:
+----------------------
+To run JUnit tests, such as MyArrayListTests:
+
+    - Right-click on the test file in your IDE (e.g., MyArrayListTests.java).
+    - Navigate to Run As > JUnit Test.
+    - Observe the test results in the JUnit panel of your IDE.
+
+# Project Structure:
+--------------------
+The project's architecture is as follows:
+
+UTILITIES PACKAGE:
+
+    - ListADT.java: Blueprint for list-oriented operations.
+    - Iterator.java: Blueprint for collection traversal mechanisms.
+    - MyArrayList.java: Concrete realization of an expandable array.
+    - MyDLL.java: Concrete realization of a doubly linked list.
+    - MyDLLNode.java: Fundamental node element for MyDLL.
+    - MyQueue.java: Concrete realization of a queue structure.
+    - MyStack.java: Concrete realization of a stack structure.
+
+TEST PACKAGE:
+
+    - MyArrayListTests.java: JUnit testing suite for MyArrayList.
+    - MyDLLTests.java: JUnit testing suite for MyDLLTests.
+    - MyQueueTests.java: JUnit testing suite for MyQueueTests.
+    - MyStackTests.java: JUnit testing suite for MyStackTests.
+
+
+# Documentation:
+----------------
+Comprehensive documentation is provided within the codebase:
+
+    - Javadoc comments elucidate the role and mechanics of classes and methods.
+    - Inline commentary dissects complex logic or pivotal decisions within the code.
+
+# List of Contributors:
+-----------------------
+    - Jean-Pierre
+    - Valentine
+    - Martin
+    - Isabelle
