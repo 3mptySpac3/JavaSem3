@@ -1,0 +1,73 @@
+#####################################################################
+#             Word Tracker Using Binary Search Tree (BST)           #
+#####################################################################
+
+# Overview:
+------------
+This Java project implements a Word Tracker using a Binary Search Tree (BST) data structure. 
+The program reads words from a text file, stores them in a BST, and allows users to search for words, 
+displaying their occurrences and line numbers. The project also includes JUnit tests to ensure the 
+robustness of the BST implementation.
+
+# Table of Contents:
+---------------------
+1. Application Specifications
+2. How to Use
+3. Running JUnit Tests
+4. Project Structure
+5. Documentation
+6. Contributors
+
+# Application Specifications:
+------------------------------
+Key components of the project:
+
+- `WordTracker`: Main class handling word tracking and BST operations.
+- `BSTree`: Custom implementation of a Binary Search Tree.
+- `Word`: A class representing a word with its occurrences and file references.
+- `Iterator` interfaces: For traversing the BST in different orders (in-order, pre-order, post-order).
+
+# How to Use:
+-------------
+Steps to run the Word Tracker:
+
+1. Clone or download the repository to your local machine.
+2. Import the project into a JavaSE-1.8 compatible Integrated Development Environment (IDE), 
+   such as Eclipse or IntelliJ IDEA.
+3. The main method is in the `WordTracker` class. Run this class to start the application.
+4. Input words to search in the console or type 'exit' to end the session and print all found words.
+
+# Running JUnit Tests:
+----------------------
+To run JUnit tests for the BSTree:
+
+- In your IDE, navigate to the `test` package.
+- Right-click on the `BSTreeTest` class file.
+- Select Run As > JUnit Test.
+- View the test results in the JUnit panel of your IDE.
+
+# Project Structure:
+--------------------
+The project is organized as follows:
+
+`utilities` package:
+- `WordTracker.java`: Main class for word tracking.
+- `BSTree.java`: Implementation of the Binary Search Tree.
+- `Word.java`: Class representing a word in the BST.
+- `Iterator.java`: Interface for BST iterators.
+- Other supporting classes like `BSTreeNode`, `TreeException`.
+
+`test` package:
+- `BSTreeTest.java`: JUnit test cases for `BSTree`.
+
+# Documentation:
+-----------------
+The source code is well-documented with Javadoc comments explaining classes, methods, and logic.
+Inline comments are provided for complex sections of the code.
+
+# List of Contributors:
+-----------------------
+- Jean-Pierre
+- Valentine
+- Martin
+- Isabelle
